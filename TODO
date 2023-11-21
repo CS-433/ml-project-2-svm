@@ -1,0 +1,18 @@
+clean data: 
+* handle missing values 
+* normalize data
+* numerical encoding of the categorical features
+* bag of words for text
+
+implement baseline model. It should be simple just to have.. a baseline
+* logistic regression (the simplest for classification)
+* Neural net with two layers
+* Naive bayes
+
+More fancy cleaning and models
+* experiment with different words embeding (TF-IDF (Term Frequency-Inverse Document Frequency), word embeddings (Word2Vec, GloVe))
+* neureal net and hyperparameter tuning 
+
+Use large language model for the text
+* prepare the data for the task (word embedding..)
+* BERT, RoBERTa, GPT.. 
