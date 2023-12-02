@@ -18,6 +18,8 @@ Use large language model for the text (too computational expensives)
 
 
 STILL TODO
-* hyperparameter tuning 
+* hyperparameter tuning on NNs, how to do it? 
 * send recap of what we have done to the guy (we got good accuracy, anything else we should do?)
 * start writing report (what do we write in ethic section)? 
+    * decide how do we want to structure the report. which plots, to show improvements...
+    * find all reports to see what they did
