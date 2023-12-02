@@ -1,18 +1,23 @@
-clean data: 
+clean data:  DONE
 * handle missing values 
 * normalize data
 * numerical encoding of the categorical features
 * bag of words for text
 
-implement baseline model. It should be simple just to have.. a baseline
+implement baseline model. It should be simple just to have.. a baseline DONE
 * logistic regression (the simplest for classification)
 * Neural net with two layers
 * Naive bayes
 
 More fancy cleaning and models
 * experiment with different words embeding (TF-IDF (Term Frequency-Inverse Document Frequency), word embeddings (Word2Vec, GloVe))
-* neureal net and hyperparameter tuning 
 
-Use large language model for the text
+Use large language model for the text (too computational expensives)
 * prepare the data for the task (word embedding..)
 * BERT, RoBERTa, GPT.. 
+
+
+STILL TODO
+* hyperparameter tuning 
+* send recap of what we have done to the guy (we got good accuracy, anything else we should do?)
+* start writing report (what do we write in ethic section)? 
