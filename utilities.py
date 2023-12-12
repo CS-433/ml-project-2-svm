@@ -19,3 +19,23 @@ def encode_text_colum(df, text_column, vectorizer):
     encoded_abs.reset_index(drop=True, inplace=True)
     df = pd.concat([pd.DataFrame(df_vectorized_abstract.toarray()), df], axis=1)
     return df
+
+
+def modify_df(df, cols_to_drop):
+    df_out = df.copy()
+    df_out = df_out.drop(cols_to_drop, axis=1)
+    return df_out
+
+def train_RF(df, y):
+    x_train, x_test, y_train, y_test = train_test_split(df, y, test_size=0.20)
+    rf_classifier = RandomForestClassifier(n_estimators=100, random_state=42)
+    rf_classifier.fit(x_train, y_train)
+    y_pred = rf_classifier.predict(x_test)
+    accuracy = accuracy_score(y_test, y_pred)
+    f1 = f1_score(y_test, y_pred)
+    precision = precision_score(y_test, y_pred)
+    recall = recall_score(y_test, y_pred)
+    print(f'Accuracy: {accuracy}')
+    print(f'F1_score: {f1}')
+    print(f'Precision: {precision}')
+    print(f'Recall: {recall}')
