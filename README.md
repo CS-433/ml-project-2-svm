@@ -1,2 +1,34 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/fEFF99tU)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12920757&assignment_repo_type=AssignmentRepo)
+#  Predicting Patent Success: A Machine Learning Approach to Commercialization Prospects
+
+This the second project for the [Machine learning](https://www.epfl.ch/labs/mlo/machine-learning-cs-433/) ad EPFL. The project has been done in collaboration with [STIP – Chair of Science Technology and Innovation Policy](https://www.epfl.ch/labs/stip/). 
+
+##  Task description
+Understanding the potential commercial success of patents is vital for research institutions, inventors, and industry stakeholders. This documentation delves into the intersection of machine learning techniques and patent commercialization, presenting a tool designed to forecast the likelihood of a patent's success.
+
+In our pursuit of this goal, we provide a comprehensive examination of the underlying framework and share valuable insights into the essential information required for accurate predictions. By leveraging this methodology, we achieved an impressive accuracy of 0.927 and an F1-score of 0.927.
+
+## Data
+
+The dataframe is of property of [STIP – Chair of Science Technology and Innovation Policy](https://www.epfl.ch/labs/stip/) contact them to obtain the data. The CSV file needs to be added to the 'data' folder. 
+
+## SetUp
+
+Download the necessary requirements with
+
+'pip install -r requirements.txt'
+
+## Folders and Files
+
+- `data/` contains the utils to load and transform the data.
+- `utilities.py` contains different utils used for the project.
+- `requirements.txt` contains the required python packages.
+- `main.ipynb` main notebook with analysis and results
+- `data_expl_for_ethics.ipynb` notebook evaluating ethical possible ethical limitation of the project. 
+
+## Authors
+
+- Stefano Viel
+- Valerio Ardizio
+- Malena Mendilaharzu
+
+
