@@ -27,7 +27,7 @@ The obtained CSV file needs to be added to the `data/` folder, that needs to be 
 - `utilities.py` contains different utils used for the project;
 - `requirements.txt` contains the required python packages;
 - `main.ipynb` main notebook with analysis and results;
-- `data_expl_for_ethics.ipynb` notebook necessary for evaluating possible ethical risks of the project;
+- `data_expl_for_ethics.ipynb` notebook used for evaluating possible ethical risks of the project;
 - `data/` is the folder that should be created by the user and that should contain the the dataframe named `modelready_220423.csv`.
 
 ## Authors
