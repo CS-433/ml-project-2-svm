@@ -1,6 +1,6 @@
 #  Predicting Patent Success: A Machine Learning Approach to Commercialization Prospects
 
-This the second project for the [Machine learning](https://www.epfl.ch/labs/mlo/machine-learning-cs-433/) ad EPFL. The project has been done in collaboration with [STIP – Chair of Science Technology and Innovation Policy](https://www.epfl.ch/labs/stip/). 
+This the second project for the [Machine learning Course](https://www.epfl.ch/labs/mlo/machine-learning-cs-433/) at EPFL. The project has been done in collaboration with [STIP – Chair of Science Technology and Innovation Policy](https://www.epfl.ch/labs/stip/). 
 
 ##  Task description
 Understanding the potential commercial success of patents is vital for research institutions, inventors, and industry stakeholders. This documentation delves into the intersection of machine learning techniques and patent commercialization, presenting a tool designed to forecast the likelihood of a patent's success.
@@ -9,7 +9,7 @@ In our pursuit of this goal, we provide a comprehensive examination of the under
 
 ## Data
 
-The dataframe is of property of [STIP – Chair of Science Technology and Innovation Policy](https://www.epfl.ch/labs/stip/) contact them to obtain the data. The CSV file needs to be added to the 'data' folder. 
+The dataframe is of property of [STIP – Chair of Science Technology and Innovation Policy](https://www.epfl.ch/labs/stip/), contact them to obtain the data. The CSV file needs to be added to the 'data' folder. 
 
 ## SetUp
 
@@ -23,12 +23,10 @@ Download the necessary requirements with
 - `utilities.py` contains different utils used for the project.
 - `requirements.txt` contains the required python packages.
 - `main.ipynb` main notebook with analysis and results
-- `data_expl_for_ethics.ipynb` notebook evaluating ethical possible ethical limitation of the project. 
+- `data_expl_for_ethics.ipynb` notebook necessary for evaluating possible ethical risks of the project. 
 
 ## Authors
 
 - Stefano Viel
 - Valerio Ardizio
 - Malena Mendilaharzu
-
-
