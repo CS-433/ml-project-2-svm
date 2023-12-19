@@ -9,14 +9,15 @@ In our pursuit of this goal, we provide a comprehensive examination of the under
 
 ## Data
 
-We could not add the the dataframe to the repository since it is property of [STIP – Chair of Science Technology and Innovation Policy](https://www.epfl.ch/labs/stip/), contact them to obtain it. 
-The obtained CSV file needs to be added to the 'data' folder, that need to be created in the repository by the user. 
+The authors were not allowed to add the the dataframe to the repository, since it is property of [STIP – Chair of Science Technology and Innovation Policy](https://www.epfl.ch/labs/stip/). Therefore, the user should contact them to obtain it. 
+The obtained CSV file needs to be added to the `data/` folder, that needs to be created in the repository by the user. 
 
 ## SetUp
 
-Download the necessary requirements with
+- Create the folder named `data/` and add the dataframe named `modelready_220423.csv` inside tha folder
 
-'pip install -r requirements.txt'
+- Download the necessary requirements with
+    'pip install -r requirements.txt'
 
 ## Folders and Files
 
