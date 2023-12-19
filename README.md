@@ -17,7 +17,9 @@ The obtained CSV file needs to be added to the `data/` folder, that needs to be 
 - Create the folder named `data/` and add the dataframe named `modelready_220423.csv` inside tha folder
 
 - Download the necessary requirements with
-    'pip install -r requirements.txt'
+
+```bash
+pip install -r requirements.txt
 
 ## Folders and Files
 
