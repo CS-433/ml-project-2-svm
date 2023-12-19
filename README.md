@@ -9,7 +9,7 @@ In our pursuit of this goal, we provide a comprehensive examination of the under
 
 ## Data
 
-The dataframe is of property of [STIP – Chair of Science Technology and Innovation Policy](https://www.epfl.ch/labs/stip/), contact them to obtain the data. The CSV file needs to be added to the 'data' folder. 
+The dataframe is of property of [STIP – Chair of Science Technology and Innovation Policy](https://www.epfl.ch/labs/stip/), contact them to obtain it. The CSV file needs to be added to the 'data' folder. 
 
 ## SetUp
 
