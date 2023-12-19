@@ -9,7 +9,8 @@ In our pursuit of this goal, we provide a comprehensive examination of the under
 
 ## Data
 
-The dataframe is of property of [STIP – Chair of Science Technology and Innovation Policy](https://www.epfl.ch/labs/stip/), contact them to obtain it. The CSV file needs to be added to the 'data' folder. 
+We could not add the the dataframe to the repository since it is property of [STIP – Chair of Science Technology and Innovation Policy](https://www.epfl.ch/labs/stip/), contact them to obtain it. 
+The obtained CSV file needs to be added to the 'data' folder, that need to be created in the repository by the user. 
 
 ## SetUp
 
@@ -19,11 +20,11 @@ Download the necessary requirements with
 
 ## Folders and Files
 
-- `data/` contains the utils to load and transform the data.
-- `utilities.py` contains different utils used for the project.
-- `requirements.txt` contains the required python packages.
-- `main.ipynb` main notebook with analysis and results
-- `data_expl_for_ethics.ipynb` notebook necessary for evaluating possible ethical risks of the project. 
+- `utilities.py` contains different utils used for the project;
+- `requirements.txt` contains the required python packages;
+- `main.ipynb` main notebook with analysis and results;
+- `data_expl_for_ethics.ipynb` notebook necessary for evaluating possible ethical risks of the project;
+- `data/` is the folder that should be created by the user and that should contain the the dataframe named 'modelready_220423'.
 
 ## Authors
 
