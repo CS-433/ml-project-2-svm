@@ -10,11 +10,11 @@ In our pursuit of this goal, we provide a comprehensive examination of the under
 ## Data
 
 The authors were not allowed to add the the dataframe to the repository, since it is property of [STIP – Chair of Science Technology and Innovation Policy](https://www.epfl.ch/labs/stip/). Therefore, the user should contact them to obtain it. 
-The obtained CSV file needs to be added to the `data/` folder, that needs to be created in the repository by the user. 
+The obtained CSV file needs to be added to the `data` folder, that needs to be created in the repository by the user. 
 
 ## SetUp
 
-- Create the folder named `data/` and add the dataframe named `modelready_220423.csv` inside tha folder
+- Create the folder named `data` and add the dataframe named `modelready_220423.csv` inside tha folder
 
 - Download the necessary requirements with
 
@@ -28,7 +28,7 @@ The obtained CSV file needs to be added to the `data/` folder, that needs to be 
 - `requirements.txt` contains the required python packages;
 - `main.ipynb` main notebook with analysis and results;
 - `data_expl_for_ethics.ipynb` notebook used for evaluating possible ethical risks of the project;
-- `data/` is the folder that should be created by the user and that should contain the the dataframe named `modelready_220423.csv`.
+- `data` is the folder that should be created by the user and that should contain the the dataframe named `modelready_220423.csv`.
 
 ## Authors
 
