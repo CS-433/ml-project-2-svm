@@ -18,8 +18,9 @@ The obtained CSV file needs to be added to the `data/` folder, that needs to be 
 
 - Download the necessary requirements with
 
-```bash
-pip install -r requirements.txt
+```bash 
+pip install -r requirements.txt 
+```
 
 ## Folders and Files
 
