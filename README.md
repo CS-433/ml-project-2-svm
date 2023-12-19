@@ -1,6 +1,6 @@
 #  Predicting Patent Success: A Machine Learning Approach to Commercialization Prospects
 
-This the second project for the ([Machine learning](https://www.epfl.ch/labs/mlo/machine-learning-cs-433/) ad EPFL. The project has been done in collaboration with [STIP – Chair of Science Technology and Innovation Policy](https://www.epfl.ch/labs/stip/). 
+This the second project for the [Machine learning](https://www.epfl.ch/labs/mlo/machine-learning-cs-433/) ad EPFL. The project has been done in collaboration with [STIP – Chair of Science Technology and Innovation Policy](https://www.epfl.ch/labs/stip/). 
 
 ##  Task description
 Understanding the potential commercial success of patents is vital for research institutions, inventors, and industry stakeholders. This documentation delves into the intersection of machine learning techniques and patent commercialization, presenting a tool designed to forecast the likelihood of a patent's success.
