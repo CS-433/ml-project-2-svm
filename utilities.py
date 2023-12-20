@@ -1,30 +1,8 @@
-from sklearn.linear_model import LogisticRegression
-from sklearn.preprocessing import StandardScaler
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import MinMaxScaler
-from sklearn.feature_extraction.text import TfidfVectorizer
-import matplotlib.pyplot as plt
-from sklearn.model_selection import cross_val_score, train_test_split
-from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
-from sklearn.linear_model import LogisticRegression
-from sklearn.neural_network import MLPClassifier
-from sklearn.svm import SVC
-from scipy.stats import f_oneway
-from sklearn.model_selection import train_test_split
-from sklearn.naive_bayes import MultinomialNB
-from sklearn.pipeline import Pipeline
-from sklearn.impute import SimpleImputer
 from sklearn.model_selection import cross_validate
 import numpy as np
 import pandas as pd
-from sklearn.model_selection import cross_val_score, train_test_split
-from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.model_selection import cross_val_score
-from sklearn.metrics import make_scorer, accuracy_score, precision_score, recall_score, f1_score
-from sklearn.preprocessing import StandardScaler
-from sklearn.metrics import accuracy_score
-from utilities import *
+
 
 
 
@@ -64,6 +42,8 @@ def train_RF(X_train, y_train):
     print(f'Average Recall: {np.mean(scores_dict["test_recall"])}')
 
     return scores_dict["test_accuracy"]
+
+
 
 
 
