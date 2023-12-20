@@ -29,7 +29,8 @@ from utilities import *
 
 
 def encode_text_colum(df, text_column, vectorizer): 
-    """encodes a text column with the given vectorizer, drop the old column (with text)
+    """
+    Encodes a text column with the given vectorizer, drop the old column (with text)
     return the databased with the encoded text
 
     Args:
@@ -50,11 +51,23 @@ def encode_text_colum(df, text_column, vectorizer):
 
 
 def modify_df(df, cols_to_drop):
+    """
+    Takes in input the DataFrame 'df' and drops the columns specified by the list of features 'cols_to_drop'
+
+    Args: 
+        df (_type_): _
+        cols_to_drop: list of 
+    
+    """
     df_out = df.copy()
     df_out = df_out.drop(cols_to_drop, axis=1)
     return df_out
 
 def train_RF(X_train, y_train):
+    """
+    
+    
+    """
     rf_classifier = RandomForestClassifier(n_estimators=100, random_state=42)
     scores_dict = cross_validate(rf_classifier, X_train, y_train, cv=5, n_jobs=5, scoring=['f1', 'accuracy', 'precision', 'recall'])       
 
