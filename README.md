@@ -26,7 +26,7 @@ The obtained CSV file needs to be added to the `data` folder under the name of `
 
 - Create the folder named `data` and add the dataframe named `modelready_220423.csv` inside tha folder. 
 
-- To facilitate reproducibility we provide [here](https://drive.google.com/drive/folders/1EkwTVS9IfSViPfPVWtvFV_oOuI9_NL7u?usp=sharing) the parameters of BERT after the finetuning. Please create the folder named `models` and add both model to the folder. 
+- To facilitate reproducibility we provide [here](https://drive.google.com/drive/folders/1EkwTVS9IfSViPfPVWtvFV_oOuI9_NL7u?usp=sharing) the parameters of BERT after the finetuning. Please create the folder named `models` and add both trained models to the folder. 
 
 ## Folders and Files
 
@@ -36,7 +36,7 @@ The obtained CSV file needs to be added to the `data` folder under the name of `
 - `main.ipynb` main notebook with analysis and results;
 - `data_expl_for_ethics.ipynb` notebook used for evaluating possible ethical risks of the project;
 - `data` is the folder that needs to be created by the user. Then place inside the the dataframe named `modelready_220423.csv`.
-- `models` is the folder that needs to be created by the user. Then place inside the parameters of BERT after the finetuning downloaded from the provided [link](https://drive.google.com/drive/folders/1EkwTVS9IfSViPfPVWtvFV_oOuI9_NL7u?usp=sharing)
+- `models` is the folder that needs to be created by the user. Then place inside the parameters of BERT after the finetuning named `bert_trained_no_ge.pth` and `bert_trained.pth` (these files where downloaded from the provided [link](https://drive.google.com/drive/folders/1EkwTVS9IfSViPfPVWtvFV_oOuI9_NL7u?usp=sharing))
 
 ## Authors
 
