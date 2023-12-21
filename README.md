@@ -14,12 +14,16 @@ The obtained CSV file needs to be added to the `data` folder under the name of `
 
 ## SetUp
 
-- Download the necessary requirements with
-
-    ```bash 
-    pip install -r requirements.txt 
-    ```
-
+- Download the necessary requirements differentiating on whether the operating system is iOS or Linux/Windows
+    - if working on iOS
+        ```bash 
+        pip install -r requirements_iOS.txt 
+        ```
+    - if working on Linux/Windows
+        ```bash 
+        pip install -r requirements.txt 
+        ```
+        
 - Create the folder named `data` and add the dataframe named `modelready_220423.csv` inside tha folder. 
 
 - To facilitate reproducibility we provide [here](https://drive.google.com/drive/folders/1EkwTVS9IfSViPfPVWtvFV_oOuI9_NL7u?usp=sharing) the parameters of BERT after the finetuning. Please add both model to the `models` folder. 
