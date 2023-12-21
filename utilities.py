@@ -9,7 +9,8 @@ from sklearn.metrics import make_scorer, accuracy_score, precision_score, recall
 
 
 def encode_text_colum(df, text_column, vectorizer): 
-    """encodes a text column with the given vectorizer, drop the old column (with text)
+    """
+    Encodes a text column with the given vectorizer, drop the old column (with text)
     return the databased with the encoded text
 
     Args:
