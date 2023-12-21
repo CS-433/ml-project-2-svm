@@ -9,18 +9,20 @@ In our pursuit of this goal, we provide a comprehensive examination of the under
 
 ## Data
 
-The authors were not allowed to add the the dataframe to the repository, since it is property of [STIP – Chair of Science Technology and Innovation Policy](https://www.epfl.ch/labs/stip/). Therefore, the user should contact them to obtain it. 
-The obtained CSV file needs to be added to the `data` folder, that needs to be created in the repository by the user. 
+The authors were not allowed to add the the dataframe to the repository, since it is property of [STIP – Chair of Science Technology and Innovation Policy](https://www.epfl.ch/labs/stip/). In order to obtain the dataframe please contact [Prakhar Gupta](prakhar.gupta@epfl.ch).
+The obtained CSV file needs to be added to the `data` folder under the name of `modelready_220423.csv`. The folder needs to be created in the repository by the user. 
 
 ## SetUp
-
-- Create the folder named `data` and add the dataframe named `modelready_220423.csv` inside tha folder
 
 - Download the necessary requirements with
 
     ```bash 
     pip install -r requirements.txt 
     ```
+
+- Create the folder named `data` and add the dataframe named `modelready_220423.csv` inside tha folder. 
+
+- To facilitate reproducibility we provide [here](https://drive.google.com/drive/folders/1EkwTVS9IfSViPfPVWtvFV_oOuI9_NL7u?usp=sharing) the parameters of BERT after the finetuning. Please add both model to the `models` folder. 
 
 ## Folders and Files
 
