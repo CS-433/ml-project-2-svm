@@ -9,7 +9,7 @@ In our pursuit of this goal, we provide a comprehensive examination of the under
 
 ## Data
 
-The authors were not allowed to add the the dataframe to the repository, since it is property of [STIP – Chair of Science Technology and Innovation Policy](https://www.epfl.ch/labs/stip/). In order to obtain the dataframe please contact [Prakhar Gupta](prakhar.gupta@epfl.ch).
+The authors were not allowed to add the the dataframe to the repository, since it is property of [STIP – Chair of Science Technology and Innovation Policy](https://www.epfl.ch/labs/stip/). In order to obtain the dataframe please contact prakhar.gupta@epfl.ch.
 The obtained CSV file needs to be added to the `data` folder under the name of `modelready_220423.csv`. The folder needs to be created in the repository by the user. 
 
 ## SetUp
