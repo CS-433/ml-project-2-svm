@@ -44,6 +44,7 @@ def modify_df(df, cols_to_drop):
     df_out = df_out.drop(cols_to_drop, axis=1)
     return df_out
 
+
 def train_RF(X_train, y_train):
     """Performs cross validation with random forest on given dataframe
 
