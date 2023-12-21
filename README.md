@@ -23,7 +23,7 @@ The obtained CSV file needs to be added to the `data` folder under the name of `
         ```bash 
         pip install -r requirements.txt 
         ```
-        
+
 - Create the folder named `data` and add the dataframe named `modelready_220423.csv` inside tha folder. 
 
 - To facilitate reproducibility we provide [here](https://drive.google.com/drive/folders/1EkwTVS9IfSViPfPVWtvFV_oOuI9_NL7u?usp=sharing) the parameters of BERT after the finetuning. Please add both model to the `models` folder. 
@@ -32,6 +32,7 @@ The obtained CSV file needs to be added to the `data` folder under the name of `
 
 - `utilities.py` contains different utils used for the project;
 - `requirements.txt` contains the required python packages;
+- `requirements_iOS.txt` contains the required python packages for iOS;
 - `main.ipynb` main notebook with analysis and results;
 - `data_expl_for_ethics.ipynb` notebook used for evaluating possible ethical risks of the project;
 - `data` is the folder that should be created by the user and that should contain the the dataframe named `modelready_220423.csv`.
